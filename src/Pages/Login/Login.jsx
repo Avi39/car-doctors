@@ -48,10 +48,14 @@ const Login = () => {
                             </label>
                         </div>
                         <div className="form-control mt-6">
+                            <Link to='/'>
                             <input className="btn btn-primary" value="Login" type="text" />
+                            </Link>
+                            
                         </div>
                         </form>
-                        <p className='my-4 text-center'>New to Car Doctors?  <Link className='text-orange-600 font-bold' to
+                        <p className='my-4 text-center'>New to Car Doctors? 
+                         <Link className='text-orange-600 font-bold' to
                         ="/signup">SignUp</Link></p>
                     </div>
                 </div>

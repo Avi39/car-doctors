@@ -56,7 +56,10 @@ const SignUp = () => {
                                 </label>
                             </div>
                             <div className="form-control mt-6">
+                                <Link to='/login'>
                                 <input className="btn btn-primary" value="Sign Up" type="submit" />
+                                </Link>
+                                
                             </div>
                         </form>
                         <p className='my-4 text-center'>Already Have an account? <Link className='text-orange-600 font-bold'to="/login">Login</Link></p>
